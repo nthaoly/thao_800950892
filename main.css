@@ -1,0 +1,36 @@
+/*for home page and post page*/
+#nav {
+    text-align: right;
+    height: 30px;
+}
+
+.button {
+    padding: 10px;
+    text-decoration:none;
+    color: inherit;
+}
+
+.button:hover {
+    color: blueviolet;
+}
+
+.youth {
+    width: 100%;
+    height: auto;
+}
+
+.blog {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    padding: 20px;
+}
+
+.entry {
+    text-decoration: none;
+    color: inherit;
+}
+
+.entry:hover {
+    color: blueviolet;
+}

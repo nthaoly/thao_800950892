@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create New Post</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
 
     <div id="nav">
-        <a href="index.html">Font Resizer</a>
-        <a href="index.html">Style Switcher</a>
-        <a href="login.html">Admin Login</a>
+        <a href="index.html" class="button">Font Resizer</a>
+        <a href="index.html" class="button">Style Switcher</a>
+        <a href="login.html" class="button">Admin Login</a>
     </div>
 </head>
 <body>
-    <img src="images/youth.jpg" alt="Youth Group Picture">
-    <form action="">
+    <img class="youth" src="images/youth.jpg" alt="Youth Group Picture">
+    <div class="form">
+        <form action="">
         Post Title: <input type="text" value="Enter your title name" /><br/><br/>
         Post Content: <br/><textarea rows="10" cols="50"></textarea><br/><br/>
         <input type="submit" name="add" value="Add Post" />
-    </form>
+        </form>
+    </div>
 </body>
 <footer>
     <p>Copyright © Charlotte Vietnamese Christian Youth 2020<br></p>

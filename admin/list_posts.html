@@ -4,33 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List of Blog Entries</title>
+    <link rel="stylesheet" type="text/css" href="admin.css">
+    <script src="https://kit.fontawesome.com/1208496c74.js" crossorigin="anonymous"></script>
 
     <div id="nav">
-        <a href="index.html">Font Resizer</a>
-        <a href="index.html">Style Switcher</a>
-        <a href="login.html">Admin Login</a>
+        <a href="index.html" class="button">Font Resizer</a>
+        <a href="index.html" class="button">Style Switcher</a>
+        <a href="login.html" class="button">Admin Login</a>
     </div>
 </head>
 <body>
-    <img src="images/youth.jpg" alt="Youth Group Picture">
-    <div>Operation Results</div>
-    <table>
-        <tr>
-            <td>Post Title</td>
-            <td colspan="4">Operations</td>
-        </tr>
-        <tr>
-            <td>Post 1</td>
-            <td>
-                <a href="read_post.html">View</a>
-            </td>
-            <td>
-                <a href="update_post.html">Edit</a>
-            </td>
-            <td>Delete</td>
-            <td>Enable/Disable</td>
-        </tr>
-    </table>
+    <img class="youth" src="images/youth.jpg" alt="Youth Group Picture">
+    <div class="form">
+        <div class="operation">Operation Results</div>
+        <table class="center">
+            <tr>
+                <td>Post Title</td>
+                <td colspan="4">Operations</td>
+            </tr>
+            <tr>
+                <td>Post 1</td>
+                <td>
+                    <a href="read_post.html"><i class="fas fa-book"></i></a>
+                </td>
+                <td>
+                    <a href="update_post.html"><i class="fas fa-pencil-alt"></i></a>
+                </td>
+                <td><i class="fas fa-trash-alt"></i></td>
+                <td>Enable/Disable</td>
+            </tr>
+        </table>
+    </div>
 </body>
 <footer>
     <p>Copyright © Charlotte Vietnamese Christian Youth 2020<br></p>
