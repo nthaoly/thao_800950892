@@ -1,0 +1,44 @@
+/*for all pages in admin*/
+#nav {
+    text-align: right;
+    height: 30px;
+}
+
+.button {
+    padding: 10px;
+    text-decoration:none;
+    color: inherit;
+}
+
+.button:hover {
+    color: blueviolet;
+}
+
+.youth {
+    width: 100%;
+    height: auto;
+}
+
+.form {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    padding: 20px;
+}
+
+table, td {
+    border: 1px solid black;
+    alignment: center;
+}
+td {
+    padding: 5px;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.operation {
+    padding-bottom: 20px;
+}
