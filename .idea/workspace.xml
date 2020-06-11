@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ITIS 3135/Exercise/FinalProject/index.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/ITIS 3135/Exercise/FinalProject" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
@@ -56,6 +56,7 @@
       <updated>1590863836345</updated>
       <workItem from="1590863837643" duration="626000" />
       <workItem from="1590864744953" duration="22777000" />
+      <workItem from="1591840543471" duration="6639000" />
     </task>
     <servers />
   </component>
@@ -63,13 +64,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1590969664579">
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1591844063628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590969664579" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1591067532648">
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1591844063628" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1591841195389">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1591067532648" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1591841195389" />
   </component>
 </project>
