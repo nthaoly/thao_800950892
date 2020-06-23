@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--web page architecture-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>HTML Practice</title>
+</head>
+<body>
+<!--HTML Text-->
+    <p>This text is using p tag</p>
+    <div>This text is using div tag</div>
+    <span>This text is using span tag</span>
+    <pre>This text is using preformatted(pre) text tag</pre>
+    <code>This text is using code tag</code>
+
+<!--html headings-->
+    <h1>Heading size 1</h1>
+    <h2>Heading size 2</h2>
+    <h3>Heading size 3</h3>
+    <h4>Heading size 4</h4>
+    <h5>Heading size 5</h5>
+    <h6>Heading size 6</h6>
+
+<!--html image-->
+    <img src="images/city.jpg" title="Title will show when hovering"/><br/>
+    <img scr="https://www.google.com/search?q=guangzhou&rlz=1C1CHBD_enUS777US777&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi2l-jw5ZbqAhX6kn
+    IEHfrIACQQ_AUoA3oECB0QBQ&biw=1280&bih=610#imgrc=XEGBxp2Gp0vmSM" alt="This message will show if image not found"/><br/>
+
+<!--html links-->
+    <a href="https://www.google.com/">Google</a><br/>
+    <div>You can also to go Google by clicking the Google picture</div>
+    <a href="https://www.google.com/">
+        <img src="images/google.jpg"/>
+    </a>
+
+<!--html ordered lists-->
+    <ol>
+        <li>Chicken</li>
+        <li>Bread</li>
+        <ol>
+            <li>Whole wheat</li>
+            <li>With dried fruits</li>
+        </ol>
+        <li>Fruits</li>
+    </ol>
+
+<!--html unordered lists-->
+    <ul>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <ul>
+            <li>Hump Day</li>
+        </ul>
+        <li>Thursday</li>
+    </ul>
+
+<!--html definition lists-->
+    <dl>
+        <dt>Chicken</dt>
+        <dd>Favorite food</dd>
+        <dt>Summer</dt>
+        <dd>Time for vacation</dd>
+    </dl>
+
+<!--html tables-->
+    <table border="1">
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Three columns merge</td>
+        </tr>
+        <tr>
+            <td colspan="2">Two columns merge</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Two cell merge</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+    </table>
+
+<!--html forms-->
+    <form action="">
+        <br/><br/>
+        Username: <input type="text" value="Enter your text here"/><br/><br/>
+        Password: <input type="password" value="Password"/><br/><br/>
+        Enter some information about yourself <br/><textarea rows="10" cols="50"></textarea><br/>
+        What are you going to do for the rest of the summer? <br/>
+        <input type="checkbox" name="travel" value="travel"/>Travel<br/>
+        <input type="checkbox" name="internship" value="internship"/>Internship<br/>
+        <input type="checkbox" name="sleep" value="sleep"/>Sleep<br/>
+        Are you going to pass all your summer classes?<br/>
+        <input type="radio" name="like" value="yes" checked/>Yes<br/>
+        <input type="radio" name="like" value="no"/>No<br/>
+        <select name="topics">
+            <option value="1" selected>Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+        </select><br/>
+        Select your file to upload <br/><input type="file" name="file_upload" accept="image/svg+xml"/><br/>
+        <input type="submit" name="send" value="Click here to submit"/><br/>
+        <input type="reset" name="reset" value="Reset the form"/><br/><br/>
+        <input type="date"/>
+    </form>
+
+<!--html video/audio-->
+<!--
+<video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+</video>
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+</audio>
+-->
+</body>
+</html>
