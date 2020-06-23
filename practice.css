@@ -1,0 +1,94 @@
+/*type selector*/
+p {
+    color: blue;
+    background-color: cornflowerblue;
+    margin: 50px 150px 50px 80px;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+/*class selector*/
+.class_selector {
+    color: orange;
+    text-align: left;
+    text-decoration: overline;
+    font: italic small-caps bold 12px/30px Georgia, Serif;
+}
+
+/*id selector*/
+#id_selector {
+    color: purple;
+    text-align: right;
+}
+
+/*attribute selector*/
+p[class] {
+    color: mediumvioletred;
+}
+
+/*pseudo-classes and pseudo-elements*/
+a:link {
+    color: royalblue;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: deeppink;
+}
+
+/*combinators*/
+.div p {
+    color: violet;
+}
+
+/*backgrounds*/
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    background-color: lightpink;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px mediumvioletred;
+    font-style: oblique;
+}
+
+/*borders*/
+p.dotted {
+    border-style: dotted;
+    border-width: medium;
+    text-transform: lowercase;
+    font-family: "Times New Roman", Times, Serif;
+    font-style: italic;
+}
+
+p.dashed {
+    border-style: dashed;
+    border-color: blue;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.double {
+    border: 5px double black;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+/*padding*/
+div {
+    padding: 50px 30px 1px 80px;
+    position: static;
+}
