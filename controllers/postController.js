@@ -24,7 +24,7 @@ module.exports = function (app) {
         })
     });
 
-    app.get('post/:id', function (requestObject, responseObject) {
+    app.get('/posts/:id', function (requestObject, responseObject) {
         console.log('entry id', requestObject.params.id)
         dbHandler.all('select * from posts where ENTRY_ID = ?', [requestObject.params.id], (selectorError, result)=>{
             resultObject = {'error':"", 'data': ""}
@@ -57,7 +57,7 @@ module.exports = function (app) {
             })
     });
 
-    app.get('update_post/:id', function (requestObject, responseObject) {
+    app.get('/update_post/:id', function (requestObject, responseObject) {
         console.log('post entry', requestObject.params.id)
         dbHandler.all('select * from posts where postEntry = ?', [requestObject.params.id], (selectorError, result)=>{
             resultObject = {'error':"", 'data': ""}
@@ -70,20 +70,20 @@ module.exports = function (app) {
             responseObject.json(resultObject)
         })
     });
-};
 
-function listPosts() {
-    axios.get(serverURI + 'posts').then ((response)=>{
-        if (response.error != "") {
-            console.log(response.data);
-            generateUsersTable(response.data);
-        } else {
-            document.getElementById('status').innerHTML = error;
+    function listPosts() {
+        axios.get(serverURI + 'posts').then ((response)=>{
+            if (response.error != "") {
+                console.log(response.data);
+                generateUsersTable(response.data);
+            } else {
+                document.getElementById('status').innerHTML = error;
+                showStatus(0);
+            }
+        }).catch ((connectionError)=>{
+            console.log(connectionError);
+            document.getElementById('status').innerHTML = connectionError;
             showStatus(0);
-        }
-    }).catch ((connectionError)=>{
-        console.log(connectionError);
-        document.getElementById('status').innerHTML = connectionError;
-        showStatus(0);
-    })
-}
+        })
+    }
+};
