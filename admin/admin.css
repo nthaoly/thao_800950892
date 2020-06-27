@@ -15,8 +15,25 @@
 }
 
 .youth {
+    background: url(/admin/images/youth.jpg) no-repeat center;
     width: 100%;
     height: auto;
+}
+
+.blog {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    padding: 20px;
+}
+
+.entry {
+    text-decoration: none;
+    color: inherit;
+}
+
+.entry:hover {
+    color: blueviolet;
 }
 
 .form {
@@ -64,4 +81,8 @@ table.center {
     position: absolute;
     bottom: 40%;
     left: 97%;
+}
+
+.font {
+    text-align: center;
 }

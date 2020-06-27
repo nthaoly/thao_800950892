@@ -29,8 +29,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/ITIS 3135/Exercise/FinalProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controllers" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thaoly\Desktop\thao_800950892\controllers" />
+      <recent name="C:\Users\thaoly\Desktop\thao_800950892" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -57,6 +63,8 @@
       <workItem from="1590863837643" duration="626000" />
       <workItem from="1590864744953" duration="22777000" />
       <workItem from="1591840543471" duration="8136000" />
+      <workItem from="1593138074465" duration="64000" />
+      <workItem from="1593205630800" duration="12241000" />
     </task>
     <servers />
   </component>
@@ -64,10 +72,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1591848587852">
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1593138131868">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1591848587852" />
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593138131868" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1591849150259">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
