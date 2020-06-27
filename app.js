@@ -1,5 +1,6 @@
 var express = require("express");
 var postController = require('./controllers/postController');
+var userController = require('./controllers/userController');
 
 var app = express();
 
@@ -11,6 +12,7 @@ app.use(express.static(__dirname));
 
 //fire controllers
 postController(app);
+userController(app);
 
 // listen to port
 app.listen(3000);

@@ -12,6 +12,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,6 +34,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\thaoly\Desktop\thao_800950892\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\thaoly\Desktop\thao_800950892\controllers" />
       <recent name="C:\Users\thaoly\Desktop\thao_800950892" />
@@ -64,7 +68,7 @@
       <workItem from="1590864744953" duration="22777000" />
       <workItem from="1591840543471" duration="8136000" />
       <workItem from="1593138074465" duration="64000" />
-      <workItem from="1593205630800" duration="12241000" />
+      <workItem from="1593205630800" duration="13655000" />
     </task>
     <servers />
   </component>
